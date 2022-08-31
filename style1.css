@@ -1,0 +1,57 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(12, 20, 17);
+    background-image: linear-gradient(to right, #141e30, #243b55);
+
+}
+
+section {
+    text-align: center;
+}
+
+.game--title {
+    font-size: 100px;
+    color: #e3ea16;
+    margin: 10px auto;
+    background-color: #ba0c2f;
+    font-family: fantasy
+
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    color: #141e30;
+}
+
+.cell {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #f0082f;
+    background-color: #e3ea16;
+    cursor: pointer;
+    border-radius: 25px;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--status {
+    font-size: 50px;
+    font-family: fantasy;
+    color:aquamarine;
+    margin: 20px auto;
+}
+
+.game--restart {
+    border-radius: 50%;
+    border: 1px solid rgb(129, 10, 10);
+    padding: 10px 20px;
+    background: rgb(59, 52, 131);
+    font-size: 2em;
+    color: aqua;
+    cursor: pointer;
+    font-family: 'Lucida Sans';
+}
